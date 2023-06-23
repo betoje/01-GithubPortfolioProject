@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Alberto Jácome">
+  <meta name="description" content="Portafolio de desarrollo Web de Alberto Jácome">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título -->
+  <title>Alberto Jácome - Desarrollador Full-Stack</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" /> -->
+</head>
+<body>
+  <header  id="home">
+    <!-- navbar (sin fixed-top) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h2>Web Developer</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home (Presentación)</a>
+            </li>
+            <li class="nav-item">
+              <a href="#biografia" class="nav-link active" aria-current="page">Biografía</a>
+            </li>
+            <li class="nav-item">
+              <a href="#proyectos" class="nav-link active" aria-current="page">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contacto">Contacto</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- main -->
+  <main>  
+    <!-- presentación -->
+    <div class="dummy div container border">
+    <section>
+      <div class="row my-5 p-5 text-center text-sm-start border">
+        <div class="container">
+          <div class="row text-left g-4">
+            <div class="col-lg-5 col-md-12">
+              <h2><span class="text-dark">Presentación</span></h2>
+              <p class="lead my-4">Mi nombre es <span class="text-primary"><strong>Alberto Jácome</strong></span>. Soy
+                un apasionado de la tecnología y en mi vida profesional me he destacado en el
+                desarrollo de aplicaciones para empresas consultoras de Ingeniería, utilizando lenguajes de programación
+                como Fortran, C, C++ y más recientemente Python. Desde hace algunos años he venido estudiando el <span
+                  class="text-dark"><strong>Desarrollo de aplicaciones Web</strong></span> en plataformas como Youtube,
+                Udemy, EDX y Scrimba. En la actualidad me encuentro
+                cursando el programa "Certificado Profesional en Programación: Desarrollo Full-Stack con MERN" en
+                MITxPRO
+              </p>
+              <!-- <button class="btn btn-primary btn-lg">Descarga mi Hoja de Vida</button> -->
+            </div>
+            <div class="col-lg-7 col-md-12 p-2 embed-responsive">
+              <iframe width="100%" height="500px" src="https://www.youtube.com/embed/fAJ-qKLOg98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9EDcce40Rpk"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- biografía -->
+    <div  id="biografia" class="dummy container-fluid py-4">
+    </div>
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center bglg text-dark border">
+        <img class="hero-imagen-desarrollador rounded-circle" src="./imagenes/betoje.jpg" alt="Foto de Alberto Jácome">
+        <h2>Biografía</h2>
+        <p class="lead mx-4 my-6 border">Soy Ingeniero Civil de profesión, egresado de una maestría de "Sistemas de Información" y graduado
+          recientemente de la maestría de "Industria 4.0" en la Universidad Española UNIR. Tengo más de 30 años
+          de experiencia en la Industria de la Computación, habiendo desempeñando diferentes funciones técnicas
+          y gerenciales, principalmente en IBM del Ecuador y en la en la Consultora de Ingeniería Cardno. A la fecha
+          continúo prestando servicios de tecnología en diferentes empresas. Otra area en la que he desarrollado
+          actividad es la docencia, como profesor de matemática en época colegial y universitaria; y, como
+          profesor de diferentes materias en la facultad de Ingeniería de Sistemas de la Escuela Politécnica
+          Nacional en Quito, Ecuador.</p>
+      </div>
+      <div class="hero-inferior">
+        <!-- <img class="hero-inferior-imagen img-fluid" src="./imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React."> -->
+        <button class="btn btn-dark btn-sm">Descarga mi Hoja de Vida</button><span class="p-2"></span>
+        <a href="https://www.linkedin.com/in/jesus-alberto-jacome-espinosa/" target="_blank" rel="noopener">
+          <img alt="siguenos en linkedin" height="30" width="30"
+            src="https://webmasfacil.info/wp-content/uploads/2021/02/linkedin.png" title="siguenos en linkedin" /></a>
+        <a href="https://www.facebook.com/alberto.jacome/" target="_blank" rel="noopener">
+          <img alt="siguenos en facebook" height="30" width="30"
+            src="https://webmasfacil.info/wp-content/uploads/2021/02/facebook.png" title="siguenos en facebook" /></a>
+        <a href="https://twitter.com/betojacome" target="_blank" rel="noopener">
+          <img alt="siguenos en twitter" height="30" width="30"
+            src="https://webmasfacil.info/wp-content/uploads/2021/02/twitter.png" title="siguenos en twitter" /></a>
+        <a href="https://www.youtube.com/@betoje" target="_blank" rel="noopener">
+          <img alt="siguenos en youtube" height="30" width="30"
+            src="https://webmasfacil.info/wp-content/uploads/2021/02/youtube2.png" title="siguenos en youtube" /></a>
+        <a href="#" target="_blank" rel="noopener">
+          <img alt="siguenos en whatsapp" height="30" width="30"
+            src="https://webmasfacil.info/wp-content/uploads/2021/02/whatsapp.png" title="siguenos en whatsapp" /></a>
+        <span class="p-2"></span><button class="mt-1 btn btn-dark btn-sm">Email: betoje@gmail.com</button>
+      </div>
+    </section>
+    <!-- <section>
+      <div class="row border bglg text-dark text-center">
+        <div class="col-md-12 col-lg-5">
+          <img src="./imagenes/01-PortfolioPicture (1).jpg" alt="" class="img-fluid" style="width: auto; height: auto;" />
+
+        </div>
+        <div class="col-md-12 col-lg-7">
+          <h2 class="mt-5">Biografía</h2>
+          <p class="lead mt-4">
+            Soy Ingeniero Civil de profesión, egresado de una maestría de "Sistemas de Información" y graduado
+            recientemente de la maestría de "Industria 4.0" en la Universidad Española UNIR. Tengo más de 30 años
+            de experiencia en la Industria de la Computación, habiendo desempeñando diferentes funciones técnicas
+            y gerenciales, principalmente en IBM del Ecuador y en la en la Consultora de Ingeniería Cardno. A la fecha
+            continúo prestando servicios de tecnología en diferentes empresas. Otra area en la que he desarrollado
+            actividad es la docencia, como profesor de matemática en época colegial y universitaria; y, como
+            profesor de diferentes materias en la facultad de Ingeniería de Sistemas de la Escuela Politécnica
+            Nacional en Quito, Ecuador.
+          </p>
+          <button class="btn btn-dark btn-sm">Descarga mi Hoja de Vida</button><span class="p-2"></span>
+          <a href="https://www.linkedin.com/in/jesus-alberto-jacome-espinosa/" target="_blank" rel="noopener">
+            <img alt="siguenos en linkedin" height="30" width="30"
+              src="https://webmasfacil.info/wp-content/uploads/2021/02/linkedin.png" title="siguenos en linkedin" /></a>
+          <a href="URL" target="_blank" rel="noopener">
+            <img alt="siguenos en facebook" height="30" width="30"
+              src="https://webmasfacil.info/wp-content/uploads/2021/02/facebook.png" title="siguenos en facebook" /></a>
+          <a href="URL" target="_blank" rel="noopener">
+            <img alt="siguenos en twitter" height="30" width="30"
+              src="https://webmasfacil.info/wp-content/uploads/2021/02/twitter.png" title="siguenos en twitter" /></a>
+          <a href="https://www.youtube.com/@betoje" target="_blank" rel="noopener">
+            <img alt="siguenos en youtube" height="30" width="30"
+              src="https://webmasfacil.info/wp-content/uploads/2021/02/youtube2.png" title="siguenos en youtube" /></a>
+          <a href="URL" target="_blank" rel="noopener">
+            <img alt="siguenos en whatsapp" height="30" width="30"
+              src="https://webmasfacil.info/wp-content/uploads/2021/02/whatsapp.png" title="siguenos en whatsapp" /></a>
+        </div>
+      </div>
+    </section> -->
+    <!-- proyectos -->
+    <div  id="proyectos" class="dummy container-fluid py-4">
+    </div>
+    <section class="row my-5 g-x-2 border">
+      <h2>Proyectos</h2>
+      <div class="col">
+        <div class="card-group">
+          <div class="card">
+            <img src="./imagenes/PacMen (1).jpg" class="card-img-top border" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pac Men</h5>
+              <p class="card-text">
+                Proyecto para ir creando figuras de PacMan y que se muevan en forma aleatoria en la pantalla del
+                dispositivo
+              </p>
+              <div class="">
+                <a href="https://github.com/betoje/0107-PacMenFactory" class="btn btn-primary">Repo</a>
+                <a href="https://betoje.github.io/0107-PacMenFactory/" class="btn btn-warning">Try It</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./imagenes/EyeMovement (1).jpg" class="card-img-top border" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Eyes Movement</h5>
+              <p class="card-text">
+                Proyecto para mover los ojos en sincronía con el movimimento del mose en la pantalla del dispositivo
+              </p>
+              <div class="">
+                <a href="https://github.com/betoje/0108-EyeMovement" class="btn btn-primary">Repo</a>
+                <a href="https://betoje.github.io/0108-EyeMovement/" class="btn btn-warning">Try It</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./imagenes/BusTracker (1).jpg" class="card-img-top border" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">NY Real Time Bus Tracker</h5>
+              <p class="card-text">
+                Proyecto para mover una marca a lo largo del trayecto entre 2 estaciones de bus en New York City
+              </p>
+              <div class="">
+                <a href="https://github.com/betoje/0109-RealTimeBusTracker" class="btn btn-primary">Repo</a>
+                <a href="https://betoje.github.io/0109-RealTimeBusTracker/" class="btn btn-warning">Try It</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dummy my-1 container-fluid py-4">
+      </div>
+    </section>
+    <!-- preguntas -->
+    <div id="contacto" class="dummy container-fluid py-4">
+    </div>
+    <section>
+      <div class="text-center my-5">
+        <h2>Contacto</h2>
+        <p class="lead">Preguntas? No dudes en contactarme.</p>
+      </div>
+      <div class="row justify-content-center my-2">
+        <div class="col-lg-6">
+          <form action="">
+            <div class="form-floating my-2">
+              <input type="email" id="email" placeholder="your-email@email.com" class="form-control" />
+              <label for="email" class="form-label">Email:</label>
+            </div>
+            <div class="form-floating my-5">
+              <input type="name" id="name" placeholder="First-Name Last-Name" class="form-control" />
+              <label for="name" class="form-label">Nombre:</label>
+            </div>
+            <label for="subject" class="form=label"><span class="ml-1">Asunto:</span></label>
+            <select name="subject" id="subject" class="form-select">
+              <option value="pricing">Precios</option>
+              <option value="technical" selected>Preguntas técnicas</option>
+              <option value="other">Otros</option>
+            </select>
+            <div class="form-floating my-5">
+              <textarea name="query" id="query" style="height: 150px" class="form-control"
+                placeholder="Escribe un mensaje"></textarea>
+              <label for="query">Escribe tu mensaje</label>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Enviar!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  </main>
+  <!-- footer -->
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container">
+      <span class="text-light px-3">Copyrights</span>
+      <span class="bg-primary text-light px-3">Alberto Jácome</span>
+    </div>
+  </footer>
+  <!-- scripts -->
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      // add padding top to show content behind navbar
+      navbar_height = document.querySelector('.navbar').offsetHeight;
+      document.body.style.paddingTop = navbar_height + 'px';
+      console.log(navbar_height);
+    }); 
+  </script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
