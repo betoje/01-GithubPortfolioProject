@@ -18,7 +18,6 @@
   
 ---
 <img src="./imagenes/Portfolio.jpg" style="width: 500px; height: 380px">
-
 ---
 
 <div align="center" id="top"> 
@@ -29,6 +28,11 @@
 <h1 align="center">01-GithubPortfolioProject</h1>
 
 <p align="center">
+
+  <img alt="GitHub commit activity (branch)" src="https://img.shields.io/github/commit-activity/y/betoje/01-GithubPortfolioProject">
+
+  <img alt="hits" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fbetoje%2F01-GithubPortfolioProject.json%3Fcolor%3Dpink">
+    
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/betoje/01-GithubPortfolioProject?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/betoje/01-GithubPortfolioProject?color=56BEB8">
@@ -50,6 +54,14 @@
 </p>
 
 ---
+
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/betoje/01-GithubPortfolioProject)
+[![HitCount](https://hits.dwyl.com/betoje/01-GithubPortfolioProject.svg?style=flat-square)](http://hits.dwyl.com/betoje/01-GithubPortfolioProject)
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=betoje&theme=blue-green)
+![Profile View Counter](https://komarev.com/ghpvc/?username=betoje)
+
+<!-- [![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url = https://github.com/betoje/01-GithubPortfolioProject) -->
+
 ## :dart: Acerca ##
 
 Proyecto de Portafolio
@@ -86,4 +98,4 @@ Este proyecto está bajo la licencia de MIT. Para mayores detalles vea el archiv
 Hecho con :heart: por <a href="https://github.com/betoje" target="_blank">Alberto Jacome</a>
 &#xa0;
 
-<a href="#top">Regresar al inicio</a>
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) <a href="#top">Regresar al inicio</a>
