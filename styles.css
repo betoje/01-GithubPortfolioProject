@@ -65,10 +65,8 @@ h2 {
 } */
 
 .hero-imagen-desarrollador {
-  /* width: 310px;
-  height: 330px; */
-  width: 450px;
-  height: 450px;
+  width: 100%;
+  height: 100%;
   margin: 20px;
 }
 
@@ -81,4 +79,11 @@ h2 {
   .hero-inferior-imagen {
     max-width: 600px;
   }
+}
+
+@media screen and (min-width: 495px) {
+  .hero-imagen-desarrollador {
+  width: 450px;
+  height: 450px;
+}
 }
